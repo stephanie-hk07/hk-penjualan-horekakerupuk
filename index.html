@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>HK - Tradition in Every Bite</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700;900&amp;family=Noto+Sans:wght@400;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#144bb8",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#0a0a0a",
+                    },
+                    fontFamily: {
+                        "display": ["Noto Serif", "serif"],
+                        "sans": ["Noto Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: "Noto Serif", serif;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark text-white selection:bg-primary/30">
+<!-- TopAppBar -->
+<header class="sticky top-0 z-50 bg-background-dark/80 backdrop-blur-md border-b border-white/5">
+<div class="flex items-center p-4 justify-between max-w-screen-xl mx-auto">
+<div class="text-white flex size-12 shrink-0 items-center justify-start cursor-pointer">
+<span class="material-symbols-outlined text-3xl">menu</span>
+</div>
+<h2 class="text-white text-2xl font-black leading-tight tracking-tighter flex-1 text-center font-display uppercase">HK</h2>
+<div class="flex w-12 items-center justify-end">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 bg-transparent text-white gap-2 text-base font-bold leading-normal tracking-[0.015em] min-w-0 p-0">
+<span class="material-symbols-outlined text-2xl">search</span>
+</button>
+</div>
+</div>
+</header>
+<main class="flex flex-col w-full overflow-x-hidden">
+<!-- HeroSection -->
+<section class="@container">
+<div class="@[480px]:p-6">
+<div class="flex min-h-[600px] flex-col gap-8 bg-cover bg-center bg-no-repeat @[480px]:rounded-xl items-center justify-center p-6 relative overflow-hidden" data-alt="Monochrome close up of artisanal crackers and sea salt" style='background-image: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.8) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuC_YuDzuidfdymfLKgvgleCKWz3BJBmgcb5qzmWnglMAm72odCUSbj-n7TJ5Dx96EW5saTMMFgz1boBSG5O9V0t5dLOodByQN7UaUkCzX_J5ww4dfMTmkEYhAQq8TVIdRfzgSKbsL0oURq6aeZ47C1kg8Ma2UiadtBmiWwZZu5n5SZ4gwkEIjaTrwCzPBdLqI6GK1N_pZnJTY1hbm5fIa2AI_HBO3dSuVGkWGGbOm4MweKaydjsexU-rixJA-zDnmhdAMX8XcSNsKvO");'>
+<div class="flex flex-col gap-4 text-center z-10">
+<span class="text-xs uppercase tracking-[0.4em] text-white/60 mb-2">Est. 1984</span>
+<h1 class="text-white text-5xl font-black leading-tight tracking-[-0.033em] @[480px]:text-7xl font-display">
+                            Tradition in Every Bite
+                        </h1>
+<h2 class="text-white/80 text-base font-normal leading-relaxed max-w-md mx-auto @[480px]:text-lg">
+                            Elevating Horeca and culinary experiences with artisanal excellence and timeless flavors.
+                        </h2>
+</div>
+<div class="flex flex-col sm:flex-row gap-4 z-10">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-white text-black text-sm font-bold uppercase tracking-widest transition-all hover:bg-white/90">
+                            View Collections
+                        </button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center rounded-full h-12 px-8 bg-transparent border border-white/30 text-white text-sm font-bold uppercase tracking-widest transition-all hover:bg-white/10">
+                            Our Story
+                        </button>
+</div>
+<!-- Scroll Indicator -->
+<div class="absolute bottom-8 animate-bounce opacity-40">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section (HeadlineText + BodyText Combined) -->
+<section class="py-20 px-6 max-w-3xl mx-auto">
+<div class="flex flex-col items-center gap-6">
+<div class="w-12 h-px bg-white/20 mb-4"></div>
+<h2 class="text-white tracking-tight text-3xl font-bold leading-tight text-center font-display">About HK Artisanal</h2>
+<p class="text-white/60 text-lg font-normal leading-relaxed text-center font-display italic">
+                    "Founded on a legacy of flavor, HK brings premium seasonings and artisanal crackers to the finest tables and professional kitchens across the globe."
+                </p>
+<p class="text-white/40 text-sm font-normal leading-relaxed text-center max-w-xl">
+                    Our journey began in a small boutique bakery where we discovered the power of simple, high-quality ingredients. Today, we supply the world's most demanding chefs with textures and aromas that define modern gastronomy.
+                </p>
+<div class="w-12 h-px bg-white/20 mt-4"></div>
+</div>
+</section>
+<!-- Featured Categories (SectionHeader + Minimalist Cards) -->
+<section class="pb-24 px-4 @container max-w-screen-xl mx-auto">
+<div class="flex items-center justify-between mb-8 px-2">
+<h3 class="text-white text-xl font-bold leading-tight tracking-widest uppercase font-display">Featured Categories</h3>
+<span class="text-xs text-white/40 uppercase tracking-widest cursor-pointer hover:text-white transition-colors">See All</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Category 1 -->
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Artisanal flatbreads and crackers on dark stone" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDMOxLCo7ReqL8gQFVVzhdAUVqly5aRoG4UsfUyD8TZeiYW709MCIpDM_DF6ioPCgY6tbxcWPB4NnuGHAlytgfHoHn5FAgDVS03P8Cpcz309v39cegd3YUoaALRvm0dVl6ApodmrBQ6nwXuKL1jJxrRKxZU13yYqsOGbVHI51aMLeWAOLW4Jk_b4duYVvZNFvX-2vpler5_3q09dH9_U4dfQtlCpN-ojANaDkXOL5mZWV4uTKzwl1A6MKPSdtVLqthvWnmzk_m7jsi3');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<p class="text-[10px] uppercase tracking-[0.3em] text-white/60 mb-1">01</p>
+<h4 class="text-white text-2xl font-bold font-display mb-2">Crackers</h4>
+<div class="h-0.5 w-0 group-hover:w-full bg-white transition-all duration-500"></div>
+</div>
+</div>
+<!-- Category 2 -->
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Exotic spices and peppercorns in black bowls" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCDT9lHSZErsfhRPw_8pefFiWv7c41gL6J3WnLHfZso4YrgKKkX1EmnQ0swzwtqSnEGnAr0z2_KDlXqH9TLwzRsymyyfNY-1ngnT88UOV31V42-ZNKUzgfPzKUXw-Y9ne6MACJnduUUSrg6CKGVM2htOizuyqfAiGPJQAKKjAiVMyWBDboSuia39V1iLyv9uK9xcnLf3-CHEA-jbMwgmSvueWQ8lllwZfnHz9umNmPTJqjxI3e515t0CrT-1FiSfogjX65h2BDnLcLP');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<p class="text-[10px] uppercase tracking-[0.3em] text-white/60 mb-1">02</p>
+<h4 class="text-white text-2xl font-bold font-display mb-2">Seasonings</h4>
+<div class="h-0.5 w-0 group-hover:w-full bg-white transition-all duration-500"></div>
+</div>
+</div>
+<!-- Category 3 -->
+<div class="group relative aspect-[4/5] overflow-hidden rounded-lg cursor-pointer">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 group-hover:scale-110" data-alt="Professional kitchen tools and supplies" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAm_gytycT-dr-Rkp-myQqe_qzlHE0VQCk7bgK8KIksDqj7ZTBtFW0GsjUA3ZlYRf4reuLlzj97gU12ptd-Y0fvZPO0XKQQvCk6qkYhNoPGlNERUmt4wHMeoFQJU5CIHs3gIrr0CpIzoq-bsbd0nU-rpxIQP5vuPx-3BFjkU-tEK9sKZ1mBIH4i8SEm5QN3gRTlGwWDZOzjPks8uJ9xKqr_b-ddoSzJw7MqvQ5NEisYdmLFfB56aUJ6aq5F1jkl_Hkt_-sYTEEdsIdp');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent"></div>
+<div class="absolute bottom-6 left-6 right-6">
+<p class="text-[10px] uppercase tracking-[0.3em] text-white/60 mb-1">03</p>
+<h4 class="text-white text-2xl font-bold font-display mb-2">Horeca Supplies</h4>
+<div class="h-0.5 w-0 group-hover:w-full bg-white transition-all duration-500"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Gallery / Visual Section -->
+<section class="bg-white text-black py-20 px-6">
+<div class="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-12">
+<div class="w-full md:w-1/2">
+<img alt="Gourmet food presentation" class="rounded-lg shadow-2xl grayscale" data-alt="Gourmet food presentation in black and white" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBCwsVMGSLuDXUazc9RRFvh1qdsI6GHdFqBwGUNVkODQ010qFxlkkSBSFPv21b1RpD5cgTWoCR40vJtmgenpxd2zc6wi5wJhfVRGKqxKs--E7X1I-uOgW3ikxI5h8yZK3N3p-XI7NBISBlU0f4Fp6E215vQ6h7n73Z-WAiLSNm02Brilt8-Ads7Ok-UEg2byCKSoB3Pc4PIrJHzxmkEak3wU4tyvdsvDf2IEifBfbxrHGK7KSxGxK1ueDLeVnp8PsgqpLG-R5S-cFBp"/>
+</div>
+<div class="w-full md:w-1/2 flex flex-col gap-6">
+<h3 class="text-4xl font-bold font-display leading-tight">Mastering the Art of Gastronomy</h3>
+<p class="text-lg text-black/70">Our products are crafted for those who see cooking as an art form. Every spice blend is balanced, every cracker is perfectly crisped.</p>
+<div>
+<button class="bg-black text-white px-8 py-4 rounded-full font-bold uppercase tracking-widest text-sm hover:bg-black/80 transition-all">
+                            Explore Gallery
+                        </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-background-dark border-t border-white/5 pt-16 pb-12 px-6">
+<div class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-4">
+<h2 class="text-2xl font-black font-display uppercase tracking-tighter">HK</h2>
+<p class="text-white/40 text-sm">Defining excellence in Horeca supplies since 1984.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-xs uppercase tracking-[0.2em] font-bold">Contact</h4>
+<p class="text-white/40 text-sm">Paris, France</p>
+<p class="text-white/40 text-sm">contact@hk-gastronomy.com</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-xs uppercase tracking-[0.2em] font-bold">Explore</h4>
+<nav class="flex flex-col gap-2">
+<a class="text-white/40 text-sm hover:text-white transition-colors" href="#">Products</a>
+<a class="text-white/40 text-sm hover:text-white transition-colors" href="#">Wholesale</a>
+<a class="text-white/40 text-sm hover:text-white transition-colors" href="#">Press Kit</a>
+</nav>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-xs uppercase tracking-[0.2em] font-bold">Newsletter</h4>
+<div class="flex border-b border-white/20 pb-2">
+<input class="bg-transparent border-none focus:ring-0 text-sm w-full p-0" placeholder="Email address" type="email"/>
+<button class="material-symbols-outlined text-white/40 hover:text-white transition-colors">arrow_forward</button>
+</div>
+</div>
+</div>
+<div class="max-w-screen-xl mx-auto mt-16 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[10px] text-white/20 uppercase tracking-widest">© 2024 HK Artisanal Supplies. All rights Reserved.</p>
+<div class="flex gap-6">
+<span class="material-symbols-outlined text-white/20 hover:text-white cursor-pointer transition-colors">public</span>
+<span class="material-symbols-outlined text-white/20 hover:text-white cursor-pointer transition-colors">camera</span>
+<span class="material-symbols-outlined text-white/20 hover:text-white cursor-pointer transition-colors">send</span>
+</div>
+</div>
+</footer>
+</main>
+<!-- iOS Home Indicator Spacing -->
+<div class="h-8 bg-background-dark"></div>
+</body></html>
